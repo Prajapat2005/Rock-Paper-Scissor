@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Parth Prajapat">
+    <meta name="description" content="Rock ,Paper and scissors">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/RPS.png">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">
+            Rock Paper Scissors Game
+        </h1>
+    </header>
+    <main class="main">
+        <section id="container">
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="img/rock.jpg" alt="Rock" class="box" height="187" width="187">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="img/paper.jpg" alt="Paper" class="box" height="187" width="187">
+                </div>
+                <div class="choice" id="scissor">
+                    <img src="img/scissor.jpg" alt="Scissor" class="box" height="187" width="187">
+                </div>
+            </div>
+        </section>
+        <section class="score-board">
+            <div class="score">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="comp-score">0</p>
+                <p>Computer</p>
+            </div>
+        </section>
+        <section class="msg-container">
+            <p id="msg">Play Your Move</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright &copy; Parth Prajapat</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
